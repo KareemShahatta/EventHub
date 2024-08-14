@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+body {
+  margin: 0;
+  padding-top: 150px;
+}
+
+
+#nav {
+	width: 100%;
+	text-align: center;
+	position: fixed;
+    top: 0;
+}
+
+#info_bar {
+	color: black;
+	font-size: 1.5em;
+	font-weight: bolder;
+	padding: 5px 0px 5px 0px;
+	background-color: #ffe800;
+	box-shadow: 10px 10px 10px #ccc;
+}
+#top_bar {
+	padding-bottom: 20px;
+	background-color: #382140;
+	box-shadow: 10px 10px 10px #ccc;
+}
+
+.title {
+	font-size: 5em;
+	height: 50px;
+	color: #ffe800;
+	margin-bottom: 50px;
+	display: inline;
+}
+
+.container {
+	margin-top: 80px;
+	text-align: center;
+}
+
+.button {
+	font-family: Helvetica;
+	font-size: 1.6em;
+	color: #ffe800;
+	border-radius: 50px;
+	border: 5px solid #ffe800;
+	margin: 20px 10px 0px 10px;
+	padding: .1vw 3vw ;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.button:hover {
+	background-color: #dbdbdb;
+	transition: all 0.3s ease
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+a {
+  color: #382140;
+  font-weight: bolder;
+}
+
+p {
+  font-size: 2em;
+}
+
+ul
+{
+	width: fit-content;
+	margin: auto;
+	font-weight: bolder;
+}
+
+form
+{
+	font-size: 1.5em;
+	color: #382140;
+}
+
+form > input
+{
+	margin-right: 25px;
+}
+
+form > label
+{
+	margin-left: 25px;
+}
+
+#add_contacts_button
+{	
+	font-size: 1.6em;
+	font-style: italic;
+	width: 160px;
+	margin-top: 50px;
+	color: white;
+	background-color: #382140;
+	border-radius: 15px;
+}
+
+li{
+	font-size: 1.5em;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#users_list_header
+{
+	font-size: 2em;
+	color: #382140;
+	font-weight: bold;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border:5px solid black;	
+  }
+
+th{
+	font-family: Helvetica;
+	font-size: 1.2em;
+	width: 200px;
+	height: 50px;
+	vertical-align: center;
+	text-align: center;
+	border:5px solid black;	
+	color: #ffee00;
+	background-color: #382140;
+}
+
+td 
+{
+	width: 200px;
+	height: 50px;
+	vertical-align: center;
+	text-align: center;
+	border:5px solid black;	
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<div class="container">
+			<img class="img" src="../images/people.png" alt="">	
+			<h1>Registered Users<br><br></h1>
+			<div>
+				<p> Below are the names of the student who are registered.</p>
+			</br>
+				<table>
+					<tr>
+					<th>USER NAME</th>
+					<th>USER GENDER</th>
+					</tr>
+					<tr>
+					<% users.forEach(user =>{%>
+						<tr>
+							<td><%= user.name %></td>
+							<td><%= user.gender %></td>
+						</tr>
+					<% });%>	
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
